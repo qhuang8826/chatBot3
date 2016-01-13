@@ -12,7 +12,7 @@ import javax.swing.JFrame;
 public class MyWindow extends JFrame implements KeyListener{
 	
 	int width = 500;
-	static int height = 500;
+	int height = 500;
 	Hero girl;
 	Hero guy;
 	boolean itemPickedUp;

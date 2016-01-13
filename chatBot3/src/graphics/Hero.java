@@ -63,7 +63,11 @@ public class Hero {
 			y-=5;			
 		}
 		else{
-			y-= MyWindow.height-y;
+			for(int i=0;i<5;i++){
+				if(y-i==0){
+					y-=i;
+				}
+			}
 		}
 	}
 
@@ -79,6 +83,15 @@ public class Hero {
 
 	public void moveLeft() {
 		// TODO Auto-generated method stub
-		x-=5;
+		if(x-5>-1){
+			x-=5;			
+		}
+		else{
+			for(int i=0;i<5;i++){
+				if(x-i==0){
+					x-=i;
+				}
+			}
+		}
 	}
 }
