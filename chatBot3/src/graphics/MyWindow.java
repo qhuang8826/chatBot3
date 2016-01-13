@@ -33,7 +33,7 @@ public class MyWindow extends JFrame implements KeyListener{
 		
 		setVisible(true); 
 		setSize(width,height);//units in px
-		setLocation(250,150);//200px right, 150 px down (location of pop-up on window)
+		setLocation(200,150);//200px right, 150 px down (location of pop-up on window)
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//static constant reference for special close operation
 		addKeyListener(this);
 	}
